@@ -11,7 +11,7 @@ O objetivo desta fase é preparar o ambiente e entender os dados que você irá 
 * **Subetapa 1.1.1:** Instalar o Python (se ainda não tiver).
 * **Subetapa 1.1.2:** Instalar as bibliotecas necessárias: `pandas` e `Jupyter Notebook`.
     * Comando no terminal: `pip install pandas jupyter`
-* **Subetapa 1.1.3:** Criar a estrutura de pastas do projeto (por exemplo, uma pasta principal `projeto_etl_notas` com subpastas `data`, `notebooks` e `database`).
+* **Subetapa 1.1.3:** Criar a estrutura de pastas do projeto (por exemplo, uma pasta principal `projeto_etl_notas` com subpastas `data` e `notebooks`).
 
 #### Etapa 1.2: Aquisição e Exploração dos Dados
 * **Subetapa 1.2.1:** Baixar o dataset do Kaggle e salvá-lo na pasta `data`.
