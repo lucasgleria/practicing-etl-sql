@@ -35,7 +35,7 @@ dataset = '../data/student_grades.csv'
 pd.read_csv(dataset)
 ```
 - Análise exploratória inicial 
-Para observar o que foi feito nessa etapa diretamente no notebook, clique <a href="../peojeto_etl_notas/notebooks/note1.ipynb">aqui</a>
+Para observar o que foi feito nessa etapa diretamente no notebook, clique <a href="../projeto_etl_notas/notebooks/note1.ipynb">aqui</a>
 
 
 ## Processo de Desenvolvimento, passo a passo:
