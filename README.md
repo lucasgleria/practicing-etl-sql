@@ -4,10 +4,10 @@ _Caso queira acompanhar meu processo de desenvolvimento, passo a passo, desça p
 
 **Pipeline de Engenharia de Dados com foco em SQL, ETL e Python, utilizando tecnologias gratuitas**
 
-[](https://www.google.com/search?q=LICENSE)
-[](https://www.google.com/search?q=)
-[](https://www.google.com/search?q=)
-[](https://www.google.com/search?q=)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/Version-1.0.0-green.svg)]()
+[![Status](https://img.shields.io/badge/status-complete-green.svg)]()
+[![Deploy](https://img.shields.io/badge/deploy-inactive-red.svg)]()
 
 ## 📌 Sumário
 
@@ -68,14 +68,18 @@ O **Projeto ETL de Análise de Notas Acadêmicas** é uma iniciativa prática pa
 ## 📂 Estrutura do Projeto
 
 ```plaintext
+docs/                             # Arquivos markdown
+readme-imgs/                      # Imagens do readme
 projeto_etl_notas/
 ├── data/
-│   └── notas_brutas.csv          # Arquivo CSV baixado do Kaggle
+│   └── student_grades.csv        # Arquivo CSV baixado do Kaggle
 ├── notebooks/
-│   └── etl_analise.ipynb         # Notebook Jupyter com o código do projeto
-├── database/
-│   └── notas.db                  # Banco de dados SQLite gerado
+│   └── note1.ipynb               # Notebook Jupyter da fase 1
+│   └── note2.ipynb               # Notebook Jupyter das fases 2 e 3
+├── db/
+│   └── dev.db                    # Banco de dados SQLite gerado
 ├── README.md                     # Este arquivo
+├── LICENSE                       # Licensa do repositório
 └── .gitignore                    # Arquivo de ignorados do Git
 ```
 
@@ -92,7 +96,7 @@ Para rodar este projeto localmente, você precisará ter:
 
 1.  Clone este repositório:
     ```bash
-    git clone https://github.com/seu_usuario/nome_do_seu_repositorio.git
+    git clone https://github.com/lucasgleria/practicing-etl-sql.git
     ```
 2.  Navegue até o diretório do projeto:
     ```bash
@@ -120,7 +124,25 @@ Para rodar este projeto localmente, você precisará ter:
 
 ## 🤝 Contribuição
 
-Contribuições, sugestões e feedbacks são sempre bem-vindos\! Sinta-se à vontade para abrir uma *issue* ou enviar um *pull request* no repositório.
+Contribuições são bem-vindas! Siga estas etapas:
+
+### **1. Reporte Bugs**
+- Abra uma [issue](https://github.com/lucasgleria/practicing-etl-sql/issues) no GitHub
+- Descreva o problema detalhadamente
+- Inclua logs e screenshots se possível
+
+### **2. Sugira Melhorias**
+- Envie ideias através de issues
+- Proponha novas funcionalidades
+- Discuta melhorias de arquitetura
+
+### **3. Desenvolva**
+- Faça um fork do projeto
+- Crie uma branch (`git checkout -b feature/nova-funcionalidade`)
+- Faça suas alterações seguindo os padrões do projeto
+- Adicione testes para novas funcionalidades
+- Faça commit (`git commit -m 'feat: nova funcionalidade'`)
+- Envie um Pull Request
 
 ## 📜 Licença
 
@@ -128,10 +150,9 @@ Distribuído sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais inf
 
 ## 📞 Contato
 
-  - **Autor**: [Seu Nome](https://www.google.com/search?q=link_para_seu_perfil_do_github)
-  - **Email**: seu\_email@exemplo.com
-  - **LinkedIn**: [Seu LinkedIn](https://www.google.com/search?q=link_para_seu_linkedin)
-  - **GitHub**: [Seu GitHub](https://www.google.com/search?q=link_para_seu_github)
+  - **Autor**: [Lucas Leria](https://www.google.com/search?q=https://github.com/lucasgleria)
+  - **LinkedIn**: [Lucas Leria](https://www.google.com/search?q=https://www.linkedin.com/in/lucasleria)
+  - **Email**: lucasleria17@gmail.com
 
 ## 🔎 Recursos Adicionais
 
